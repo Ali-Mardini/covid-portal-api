@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "KiHKu+KZuDp0bYtTFNEf4tZyrWGUYMIADrXM/SI3UeSvCybbfslm6tMn7DPn59V7K9bpr45Sv16IDoNZmxxoEg==",
+  "success": true,
+  "projectFilePath": "/Users/alimardini/Projects/covid-portal-api/API/covid-portal-api.api/covid-portal-api.api.csproj",
+  "expectedPackageFiles": [
+    "/Users/alimardini/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/alimardini/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/alimardini/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/alimardini/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/alimardini/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/alimardini/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,21 @@
+#.Vs & .Vscode
+.vs
+.vscode
+#Domain
+Domain/covid-portal-api.domain/bin
+Domain/covid-portal-api.domain/obj
+#Infrastructure
+Infrastructure/covid-portal-api.infrastructure/bin
+Infrastructure/covid-portal-api.infrastructure/obj
+#Interfaces
+Interfaces/covid-portal-api.interfaces/bin
+Interfaces/covid-portal-api.interfaces/obj
+#Services
+Services/covid-portal-api.services/bin
+Services/covid-portal-api.services/obj
+#FunctionalTests
+FunctionalTests/covid-portal-api.functional-tests/bin
+FunctionalTests/covid-portal-api.functional-tests/obj
+#UnitTests
+UnitTests/covid-portal-api.unit-tests/bin
+UnitTests/covid-portal-api.unit-tests/obj
