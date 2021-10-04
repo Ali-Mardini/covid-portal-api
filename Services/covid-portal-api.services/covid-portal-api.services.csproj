@@ -5,4 +5,9 @@
     <RootNamespace>covid_portal_api.services</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\covid-portal-api.infrastructure\covid-portal-api.infrastructure.csproj" />
+    <ProjectReference Include="..\..\Interfaces\covid-portal-api.interfaces\covid-portal-api.interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

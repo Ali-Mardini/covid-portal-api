@@ -1,35 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6EDB8668-3E01-4779-8A65-355F66D58AE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "covid-portal-api.domain", "Domain\covid-portal-api.domain\covid-portal-api.domain.csproj", "{CB5641C3-7E97-4755-84E2-F0DD3792BF71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "covid-portal-api.domain", "Domain\covid-portal-api.domain\covid-portal-api.domain.csproj", "{CB5641C3-7E97-4755-84E2-F0DD3792BF71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F2F3D4A1-34E3-42D5-A367-9A330F7E4655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "covid-portal-api.infrastructure", "Infrastructure\covid-portal-api.infrastructure\covid-portal-api.infrastructure.csproj", "{37799819-2019-489C-A340-8326BA54A552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "covid-portal-api.infrastructure", "Infrastructure\covid-portal-api.infrastructure\covid-portal-api.infrastructure.csproj", "{37799819-2019-489C-A340-8326BA54A552}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{9A6B522F-EA27-42B2-BEB7-9900C115899E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "covid-portal-api.interfaces", "Interfaces\covid-portal-api.interfaces\covid-portal-api.interfaces.csproj", "{876EDEEE-1EF4-4774-8D29-16CD4B6FC2BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "covid-portal-api.interfaces", "Interfaces\covid-portal-api.interfaces\covid-portal-api.interfaces.csproj", "{876EDEEE-1EF4-4774-8D29-16CD4B6FC2BB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FF62FFEB-0067-4D61-A848-8C726578CB74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "covid-portal-api.services", "Services\covid-portal-api.services\covid-portal-api.services.csproj", "{D3FF9AA8-90AB-4D8A-A99B-3675A69CCEFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "covid-portal-api.services", "Services\covid-portal-api.services\covid-portal-api.services.csproj", "{D3FF9AA8-90AB-4D8A-A99B-3675A69CCEFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9CE1C54E-2AAF-409E-AB1D-96AA419C6A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "covid-portal-api.api", "API\covid-portal-api.api\covid-portal-api.api.csproj", "{D962C0D8-7C33-4903-8A29-68595C1DCCA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "covid-portal-api.api", "API\covid-portal-api.api\covid-portal-api.api.csproj", "{D962C0D8-7C33-4903-8A29-68595C1DCCA7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunctionalTests", "FunctionalTests", "{78E61542-C020-4A2C-8C19-99ED23979584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "covid-portal-api.functional-tests", "FunctionalTests\covid-portal-api.functional-tests\covid-portal-api.functional-tests.csproj", "{32ACE82D-5C42-4B5F-A7EB-5CD41C8A121D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{76927C73-0B05-4672-A272-BAC7EB2642C5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "covid-portal-api.unit-tests", "UnitTests\covid-portal-api.unit-tests\covid-portal-api.unit-tests.csproj", "{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "covid-portal-api.functional-tests", "FunctionalTests\covid-portal-api.functional-tests\covid-portal-api.functional-tests.csproj", "{32ACE82D-5C42-4B5F-A7EB-5CD41C8A121D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +35,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CB5641C3-7E97-4755-84E2-F0DD3792BF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -116,18 +109,9 @@ Global
 		{32ACE82D-5C42-4B5F-A7EB-5CD41C8A121D}.Release|x64.Build.0 = Release|Any CPU
 		{32ACE82D-5C42-4B5F-A7EB-5CD41C8A121D}.Release|x86.ActiveCfg = Release|Any CPU
 		{32ACE82D-5C42-4B5F-A7EB-5CD41C8A121D}.Release|x86.Build.0 = Release|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Debug|x64.Build.0 = Debug|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Debug|x86.Build.0 = Debug|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Release|x64.ActiveCfg = Release|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Release|x64.Build.0 = Release|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Release|x86.ActiveCfg = Release|Any CPU
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CB5641C3-7E97-4755-84E2-F0DD3792BF71} = {6EDB8668-3E01-4779-8A65-355F66D58AE5}
@@ -136,6 +120,8 @@ Global
 		{D3FF9AA8-90AB-4D8A-A99B-3675A69CCEFC} = {FF62FFEB-0067-4D61-A848-8C726578CB74}
 		{D962C0D8-7C33-4903-8A29-68595C1DCCA7} = {9CE1C54E-2AAF-409E-AB1D-96AA419C6A65}
 		{32ACE82D-5C42-4B5F-A7EB-5CD41C8A121D} = {78E61542-C020-4A2C-8C19-99ED23979584}
-		{63219DDF-CE0E-4CB7-80FF-9258F9C66C77} = {76927C73-0B05-4672-A272-BAC7EB2642C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {050E18D8-854F-4770-83D1-E1EA80946A05}
 	EndGlobalSection
 EndGlobal
